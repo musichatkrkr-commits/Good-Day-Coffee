@@ -4,11 +4,11 @@
     margin: 0; padding: 0; box-sizing: border-box; 
 }
 
-.html {
+html {
     font-size: 62.5%;
 }
 
-.body {
+body {
     font-family: 
         "Noto Serif JP", 
         "serif";
@@ -16,13 +16,23 @@
         "Noto Serif", 
         serif;
     font-optical-sizing: auto;
+    font-weight: 400;
     font-style: nomal;
-    color: rgb(82, 74, 69);
     line-height: 1.5;
-    background-color:rgb(247, 243, 237);
+    background-color: rgb(247, 243, 237);
 }
 
-.img {
+img {
     max-width: 100%;
     height: auto;
+}
+
+:root {
+    --primary-darkBrown: #524A45;
+    --primary-redBrownRGB: rgb(182, 163, 152);
+    --primary-grayBrownRGB: rgb(154, 141, 127);
+    --primary-creamRGB: rgb(247, 243, 237);
+    --primary-creamLight: #fff;
+    --contentWidth: 83.6%;
+    --contentPadding: 8.2%;
 }
