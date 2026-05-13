@@ -117,7 +117,7 @@ h3 {
 
 .specialtyCoffeeMain__txt {
     color: var(--primary-darkBrown);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
     padding-top: 32px;
 }
@@ -144,13 +144,13 @@ h3 {
 
 .aboutSpecialtyCoffee p {
     color: var(--primary-darkBrown);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: left;
     padding-top: 32px;
 }
 .aboutSpecialtyCoffee p:nth-of-type(1) {
     color: var(--primary-grayBrownRGB);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.1em;
@@ -159,7 +159,7 @@ h3 {
 
 .aboutSpecialtyCoffee p:last-of-type {
     color: var(--primary-darkBrown);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
     padding-bottom: 64px;
 }
@@ -181,7 +181,7 @@ h3 {
 
 .enjoyTheFlavor p {
     color: var(--primary-darkBrown);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
     padding-top: 32px;
 }
@@ -229,7 +229,7 @@ h3 {
 
 .roaster p {
     color: var(--primary-darkBrown);
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-align: center;
     padding-top: 32px;
 }
@@ -250,4 +250,197 @@ h3 {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.2;
+}
+
+/* coffeeBeans */
+.coffeeBeans {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+}
+
+.coffeeBeans dl {
+    border-bottom: 0.5px var(--primary-darkBrown) solid;
+    padding-bottom: 32px;
+}
+
+.coffeeBeans dl:last-of-type {
+    border-bottom: 0;
+}
+
+
+.coffeeBeans dd {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    text-align: left;
+    padding-top: 18px;
+}
+
+.coffeeBeans__title {
+    color: var(--primary-grayBrownRGB);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+    padding-top: 32px;
+    gap: 16px;
+    display: flex;
+    align-items: center;    
+}
+
+.coffeeBeans__title--right {
+    justify-content: flex-end;
+}
+
+.coffeeBeans__subTitle {
+    color: var(--primary-grayBrownRGB);
+    font-size: 1.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.coffeeBeans__subTitle--right {
+    text-align: right;
+}
+
+.coffeeBeans__flag {
+    width: 32px;
+    height: 22px;
+    display: block;
+}
+
+.coffeeBeans__img {
+    padding: 16px 0;
+}
+
+/* shop */
+.shop {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+}
+
+.shop__title {
+    position: relative;
+    color: var(--primary-grayBrownRGB);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 32px 0;
+}
+
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+.shop__title--kobe::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px var(--primary-grayBrownRGB) solid;
+    bottom: 52px;
+    width: 30px;
+    left: 56px;
+} 
+
+.shop__title::before {
+    content: "";
+    position: absolute;
+    border-bottom: 2px var(--primary-grayBrownRGB) solid;
+    bottom: 52px;
+    width: 30px;
+    left: 56px;
+}
+
+
+.shop__title::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px var(--primary-grayBrownRGB) solid;
+    bottom: 52px;
+    right: 60px;
+    width: 30px;
+}
+
+.shop__title--kobe::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px var(--primary-grayBrownRGB) solid;
+    bottom: 52px;
+    right: 70px;
+    width: 30px;
+}
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+/* 神戸--調節できん */
+
+.shop__cupIcon {
+    width: 12px;
+    height: 16px;
+}
+
+.shop__brownTxt {
+    display: flex;
+    color: var(--primary-grayBrownRGB);
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0.05em;
+    gap: 8px;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.shop__brownTxt--top {
+    padding-top: 0;
+}
+
+.shop dd {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+}
+
+.shop dl {
+    border-bottom: 0.5px var(--primary-darkBrown) solid;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.shop dl:last-of-type {
+    border-bottom: 0;
+}
+
+.shop__img {
+    padding-bottom: 32px;
+}
+
+.shop__bcImg {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    position: absolute;
+    bottom: 25px;
+    left: 225px;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 0.4);
+}
+
+/* contact */
+.contact {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+}
+
+.containerBrown {
+    background-color: var(--primary-darkBrown);
+}
+
+.contact a {
+    color: var(--primary-darkBrown);
+    background-color: var(--primary-grayBrownRGB);
+
 }
