@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* background-colorをクリーム色と薄いクリーム色にする */
+.container {
+    background-color: var(--primary-creamRGB);
+}
+
+.containerLight {
+    background-color: var(--primary-creamLight);
+}
+
+
+/* menu */
+.menu {
+    display: flex;
+    background-image: url(..//images/menu__topImg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+}
+
+.menu__topic {
+    color: var(--primary-creamRGB);
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+/* ナビゲーション */
+.navigationWrap {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+}
+
+.navigation {
+    display: flex;
+    height: 60px;
+    margin: 0 auto;
+    color: var(--primary-grayBrownRGB);
+    font-size: 1.4rem;
+    font-weight: 700;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.navigation li {
+    margin-bottom: 8px;
+}
+
+/* 背景がレッドブラウンのタイトル */
+h2 {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    letter-spacing: 0.1em;
+    background-color: var(--primary-redBrownRGB);
+    padding: 8px var(--contentPadding);
+}
+
+/* menuList */
+.container {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+    background-color: var(--primary-creamRGB);
+}
+
+.menuList {
+    padding: 32px 0;
+}
+
+.menuList__imgWrap {
+    width: 140px;
+}
+
+.menuList img {
+    width: 140px;
+    height: 140px;
+}
+
+/* pc調べる
+わからないところメモしとく
+メニュー画像　正四角形で書き出し直す。 */
