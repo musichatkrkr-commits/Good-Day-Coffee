@@ -430,17 +430,110 @@ h3 {
 }
 
 /* contact */
+.containerBrown {
+    background-color: var(--primary-darkBrown);
+    padding-top: 32px;
+    text-align: center;
+}
+
 .contact {
     width: var(--contentWidth);
     margin: 0 auto; 
 }
 
-.containerBrown {
+.contact a {
+    display: block;
+    color: var(--primary-darkBrown);
+    font-size: 2.4rem;
+    font-weight: 700;
+    background-color: var(--primary-grayBrownRGB);
+    padding: 4px 64px;
+    border-radius: 18px;
+    text-decoration: none;
+    margin-bottom: 32px;
+}
+
+.contact span {
+    color: var(--primary-darkBrown);
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-left: 4px;
+}
+
+.sns {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.contact__question {
+    display: flex;
+    color: var(--primary-creamRGB);
+    font-size: 1.4rem;
+    white-space: nowrap;
+    gap: 64px;
+}
+
+.contact__question li {
+    display: flex;
+    padding: 32px 0 12px 0;
+}
+
+.contact__question img {
+    padding-right: 8px;
+}
+
+.contact__language {
+    display: flex;
+    color: var(--primary-creamRGB);
+    font-size: 1.4rem;
+    text-align: left;
+    white-space: nowrap;
+    gap: 85px;
+    border-bottom: 0.5px var(--primary-creamRGB) solid;
+}
+
+.contact__language li {
+    display: flex;
+    padding-bottom: 32px;
+}
+
+.contact__language img {
+    padding-right: 8px;
+}
+
+.otherInformation {
+    color: var(--primary-creamRGB);
+    font-size: 1.4rem;
+    text-align: left;
+    border-bottom: 0.5px var(--primary-creamRGB) solid;
+}
+
+.otherInformation li {
+    display: flex;
+    padding-top: 8px;
+}
+
+.otherInformation li:first-of-type {
+    padding-top: 16px;
+}
+
+.otherInformation li:last-of-type {
+    padding-bottom: 16px;
+}
+
+.otherInformation img {
+    padding-right: 6px;
+}
+
+/* footer */
+footer {
     background-color: var(--primary-darkBrown);
 }
 
-.contact a {
-    color: var(--primary-darkBrown);
-    background-color: var(--primary-grayBrownRGB);
-
+.footer {
+    width: var(--contentWidth);
+    margin: 0 auto; 
+    padding: 16px 0;
+    color: var(--primary-creamRGB);
 }
