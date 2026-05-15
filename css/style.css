@@ -88,11 +88,11 @@ h3 {
     position: relative;
 }
 
-.specialtyCoffeeMain::after{
+.specialtyCoffeeMain__title::after{
     content: "";
     position: absolute;
     top: 24px;
-    left: 300px;
+    right: 0;
     width: 36px;
     height: 35px;
     background-image: url(../images/decoration-beansTop.svg);

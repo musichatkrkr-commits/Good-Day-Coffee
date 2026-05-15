@@ -9,9 +9,8 @@
     background-color: var(--primary-creamLight);
 }
 
-
-/* menu */
-.menu {
+/* barista */
+.barista {
     display: flex;
     background-image: url(..//images/menu__topImg.webp);
     background-size: cover;
@@ -23,7 +22,7 @@
     letter-spacing: 0.1em;
 }
 
-.menu__topic {
+.barista__topic {
     color: var(--primary-creamRGB);
     font-size: 3.2rem;
     font-weight: 700;
@@ -60,56 +59,3 @@ h2 {
     padding: 8px var(--contentPadding);
 }
 
-/* menuList */
-.container {
-    background-color: var(--primary-creamRGB);
-}
-
-.menuList {
-    padding: 32px 0;
-    width: var(--contentWidth);
-    margin: 0 auto; 
-}
-
-.menuList__imgWrap {
-    width: 140px;
-}
-
-.menuList img {
-    width: 140px;
-    height: 140px;
-}
-
-/* pc調べるワカメの人
-メニュー画像　正四角形で書き出し直す。 */
-.menuList {
-    padding: 32px 0;
-}
-
-.menuList data {
-    color: var(--primary-darkBrown);
-    font-size: 1.6rem;
-}
-
-.menuList span {
-    color: var(--primary-darkBrown);
-    font-size: 1.2rem;
-    padding-left: 4px;
-}
-
-.menuList__menuItemWrap {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-    text-align: center;
-}
-
-.menuList__menuName {
-    color: var(--primary-darkBrown);
-    font-size: 1.6rem;
-    padding-top: 8px;
-}
-
-.menuList__menuName-smallTxt {
-    font-size: 1.4rem;
-}
