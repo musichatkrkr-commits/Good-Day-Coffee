@@ -40,6 +40,12 @@ img {
 /* footer */
 /* footer */
 /* footer */
+.containerBrown {
+    background-color: var(--primary-darkBrown);
+    padding-top: 32px;
+    text-align: center;
+}
+
 .contact {
     width: var(--contentWidth);
     margin: 0 auto; 

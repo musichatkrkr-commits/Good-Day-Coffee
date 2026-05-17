@@ -59,3 +59,155 @@ h2 {
     padding: 8px var(--contentPadding);
 }
 
+/* aboutBarista */
+.aboutBarista {
+    padding: 32px 0;
+    width: var(--contentWidth);
+    margin: 0 auto;
+}
+
+.aboutBarista h3 {
+    color: var(--primary-darkBrown);
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.aboutBarista h3 span {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: block;
+    letter-spacing: 0;
+}
+
+.aboutBarista p {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.aboutBarista__desc {
+    position: absolute;
+    bottom: 45px;
+    left: 23%;
+}
+
+.aboutBarista__backgroundImg {
+    padding-top: 40px;
+    position: relative;
+    width: 214px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.aboutBarista p::after{
+    content: "";
+    position: absolute;
+    top: 24px;
+    right: 0;
+    width: 36px;
+    height: 35px;
+    background-image: url(../images/decoration-beansTop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aboutBarista p::before{
+    content: "";
+    position: absolute;
+    bottom: -80px;
+    left: -40px;
+    width: 50px;
+    height: 49px;
+    background-image: url(../images/decoration-beansUnder.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* AwardsAndHonors */
+.awardsAndHonors {
+    width: var(--contentWidth);
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.awardsAndHonors ul {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    padding-top: 32px;
+}
+
+.awardsAndHonors__bottom li:last-of-type {
+    color: var(--primary-darkBrown);
+    font-size: 1.2rem;
+}
+
+.awardsAndHonors ul li  {
+    display: flex;
+    padding-top: 4px;
+    gap: 8px;
+
+}
+
+.awardsAndHonors__top li {
+    color: var(--primary-darkBrown);
+    font-size: 1.6rem;
+    letter-spacing: 0.05em;
+    padding-top: 32px;
+}
+
+.awardsAndHonors__bottom {
+    padding-top: 32px;
+}
+
+/* policy */
+.policy {
+    width: var(--contentWidth);
+    margin: 0 auto;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.policy h3 {
+    color: var(--primary-darkBrown);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.policy p {
+    color: var(--primary-darkBrown);
+    font-size: 1.4rem;
+    padding-top: 32px;
+}
+
+.policy p:first-of-type {
+    padding-top: 0;
+}
+
+.policy__seedToCupImg {
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+.policy__coffeeBeansImg {
+    padding-top: 32px;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.policy__baristaImg {
+    padding-top: 32px;
+}
+
+
+
+
+
